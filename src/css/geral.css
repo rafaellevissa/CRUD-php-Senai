@@ -6,5 +6,20 @@
 
 form {
     top: 50px;
-    margin: 10px 10px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+form .form-group .form-control{
+    Width: 50%;
+}
+form .form-group #dtNascimento{
+    Width: 15%;
+}
+form .form-group #phone{
+    Width: 15%;
+}
+
+form .form-group #myfile{
+    Width: 30%;
 }

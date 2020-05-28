@@ -15,6 +15,34 @@
                 <label for="exampleInputEmail1">E-mail: </label>
                 <input type="email" class="form-control" id="exampleInputEmail1" placeholder="exemplo@email.com">
             </div>
+            <div class="form-group">
+                <label for="phone">Telefone:</label>
+                <input type="tel" class="form-control" id="phone" name="phone" placeholder= "(11) 11111-1111"> 
+            </div>
+            <div class="form-group">
+                <label for="curso">Curso:</label>
+                <input type="text" class="form-control" id="curso" name="curso">
+            </div>
+            <div class="form-group">
+                <label for="intituiacao">Instituição:</label>            
+                <select class="form-control" name="instituicao" id="instituicao">
+                    <option value="senaiD">Senai Dendezeiros</option>
+                    <option value="senaiCim">Senai Cimatec</option>
+                    <option value="senaiCet">Senai Cetind</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="nmatricula">Nº de matrícula:</label>
+                <input type="text" class="form-control" id="nmatricula" name="nmatricula" placeholder="000.000000">
+            </div>
+            <div class="form-group">
+                <label for="dtNascimento">Data Nascimento:</label>
+                <input type="date" class="form-control" id="dtNascimento" name="dtNascimento">
+            </div>
+            <div class="form-group">
+                <label for="myfile">Foto:</label>
+                <input class="form-control" type="file" id="myfile" name="myfile">
+            </div>
             <button type="submit" class="btn btn-primary">Confirmar</button>
         </form>                    
     </body>
