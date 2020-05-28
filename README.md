@@ -22,5 +22,5 @@ Linguagem:
 
 Banco de dados
 
-- Mysql
+- Postgresql
 
