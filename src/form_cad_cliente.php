@@ -9,15 +9,15 @@
         <form action="gravar_dados_tabela_usuario.php" method="POST">
             <div class="form-group">
                 <label for="nome1">Nome: </label>
-                <input type="text" class="form-control" id="nome1" placeholder="Nome completo">
+                <input name = "nome" type="text" class="form-control" id="nome1" placeholder="Nome completo">
             </div>
             <div class="form-group">
                 <label for="exampleInputEmail1">E-mail: </label>
-                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="exemplo@email.com">
+                <input name = "email" type="email" class="form-control" id="exampleInputEmail1" placeholder="exemplo@email.com">
             </div>
             <div class="form-group">
                 <label for="phone">Telefone:</label>
-                <input type="tel" class="form-control" id="phone" name="phone" placeholder= "(11) 11111-1111"> 
+                <input type="tel" class="form-control" id="phone" name="telefone" placeholder= "(11) 11111-1111"> 
             </div>
             <div class="form-group">
                 <label for="curso">Curso:</label>
@@ -25,7 +25,7 @@
             </div>
             <div class="form-group">
                 <label for="intituiacao">Instituição:</label>            
-                <select class="form-control" name="instituicao" id="instituicao">
+                <select class="form-control" name="inst" id="instituicao">
                     <option value="senaiD">Senai Dendezeiros</option>
                     <option value="senaiCim">Senai Cimatec</option>
                     <option value="senaiCet">Senai Cetind</option>
@@ -37,11 +37,11 @@
             </div>
             <div class="form-group">
                 <label for="dtNascimento">Data Nascimento:</label>
-                <input type="date" class="form-control" id="dtNascimento" name="dtNascimento">
+                <input type="date" class="form-control" id="dtNascimento" name="dt_nascimento">
             </div>
             <div class="form-group">
                 <label for="myfile">Foto:</label>
-                <input class="form-control" type="file" id="myfile" name="myfile">
+                <input class="form-control" type="file" id="myfile" name="foto">
             </div>
             <button type="submit" class="btn btn-primary">Confirmar</button>
         </form>                    
