@@ -30,15 +30,7 @@
                     <option value="senaiCim">Senai Cimatec</option>
                     <option value="senaiCet">Senai Cetind</option>
                 </select>
-            </div>
-            <div class="form-group">
-                <label for="nmatricula">Nº de matrícula:</label>
-                <input type="text" class="form-control" id="nmatricula" name="nmatricula" placeholder="000.000000">
-            </div>
-            <div class="form-group">
-                <label for="dtNascimento">Data Nascimento:</label>
-                <input type="date" class="form-control" id="dtNascimento" name="dt_nascimento">
-            </div>
+            </div>            
             <div class="form-group">
                 <label for="myfile">Foto:</label>
                 <input class="form-control" type="file" id="myfile" name="foto">
