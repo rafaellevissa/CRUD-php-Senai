@@ -12,13 +12,13 @@
     }
     $nome =  $_POST['nome'];
     echo($nome);
-    echo('\n');
+    echo("\n");
     $email = $_POST['email'];
     $telefone = $_POST['telefone'];
     $curso = $_POST['curso'];
     $inst = $_POST['inst'];
     $foto = $_POST['foto'];
-    $sql = "INSERT INTO cliente (nome, email, telefone, curso, inst, foto) VALUES ('$nome', '$email','$telefone','$curso','$inst','$foto');";
+    $sql = "INSERT INTO cliente (nome, email, telefone, curso, instituicao, foto) VALUES ('$nome', '$email','$telefone','$curso','$inst','$foto');";
     $res = pg_query($conexao, $sql);
     echo($res);
     echo("\n");
