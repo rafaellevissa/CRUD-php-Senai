@@ -6,11 +6,19 @@
     $credentials = "user = postgres password=postgres";
     $conexao=pg_connect("$host $port $dbname $credentials");
     if(!$conexao){
-        echo("Não conectou...");
+        echo("Não conectou...\n");
     }else{
-        echo("Conectado no banco");
+        echo("Conectado no banco\n");
     }
-    $sql = "INSERT INTO cliente (nome, email, telefone, curso, inst, foto) VALUES ('". $_POST['nome'] ."', '". $_POST['email'] ."', '". $_POST['telefone'] ."', '". $_POST['curso'] ."', '". $_POST['inst'] ."', '". $_POST['foto'] ."');";
+    $nome =  $_POST['nome'];
+    echo($nome);
+    echo('\n');
+    $email = $_POST['email'];
+    $telefone = $_POST['telefone'];
+    $curso = $_POST['curso'];
+    $inst = $_POST['inst'];
+    $foto = $_POST['foto'];
+    $sql = "INSERT INTO cliente (nome, email, telefone, curso, inst, foto) VALUES ('$nome', '$email','$telefone','$curso','$inst','$foto');";
     $res = pg_query($conexao, $sql);
     echo($res);
     echo("\n");

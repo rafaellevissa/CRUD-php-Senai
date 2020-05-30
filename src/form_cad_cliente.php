@@ -8,32 +8,32 @@
     <body>
         <form action="gravar_dados_tabela_usuario.php" method="POST">
             <div class="form-group">
-                <label for="nome1">Nome: </label>
-                <input name = "nome" type="text" class="form-control" id="nome1" placeholder="Nome completo">
+                <label for="nome">Nome: </label>
+                <input name = "nome" type="text" class="form-control" id="nome" placeholder="Nome completo">
             </div>
             <div class="form-group">
-                <label for="exampleInputEmail1">E-mail: </label>
-                <input name = "email" type="email" class="form-control" id="exampleInputEmail1" placeholder="exemplo@email.com">
+                <label for="email">E-mail: </label>
+                <input name = "email" type="email" class="form-control" id="email" placeholder="exemplo@email.com">
             </div>
             <div class="form-group">
-                <label for="phone">Telefone:</label>
-                <input type="tel" class="form-control" id="phone" name="telefone" placeholder= "(11) 11111-1111"> 
+                <label for="telefone">Telefone:</label>
+                <input type="tel" class="form-control" id="telefone" name="telefone" placeholder= "(11) 11111-1111"> 
             </div>
             <div class="form-group">
                 <label for="curso">Curso:</label>
                 <input type="text" class="form-control" id="curso" name="curso">
             </div>
             <div class="form-group">
-                <label for="intituiacao">Instituição:</label>            
-                <select class="form-control" name="inst" id="instituicao">
+                <label for="inst">Instituição:</label>            
+                <select class="form-control" name="inst" id="inst">
                     <option value="senaiD">Senai Dendezeiros</option>
                     <option value="senaiCim">Senai Cimatec</option>
                     <option value="senaiCet">Senai Cetind</option>
                 </select>
             </div>            
             <div class="form-group">
-                <label for="myfile">Foto:</label>
-                <input class="form-control" type="file" id="myfile" name="foto">
+                <label for="foto">Foto:</label>
+                <input class="form-control" type="file" id="foto" name="foto">
             </div>
             <button type="submit" class="btn btn-primary">Confirmar</button>
         </form>                    
