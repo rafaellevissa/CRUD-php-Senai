@@ -3,7 +3,7 @@
     $host        = "host = 127.0.0.1";
     $port        = "port = 5432";
     $dbname      = "dbname = senai";
-    $credentials = "user = postgres password=123";
+    $credentials = "user = postgres password=postgres";
     $conexao=pg_connect("$host $port $dbname $credentials");
     if(!$conexao){
         echo("Não conectou...");
