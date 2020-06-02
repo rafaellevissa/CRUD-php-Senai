@@ -3,6 +3,14 @@
 	src: url("../fonts/Open_Sans/OpenSans-Regular.ttf");
 	font-size: 1em;
 }
+h1{
+    margin: 10px 20px;
+}
+
+.table{
+    margin-left: 20px;
+    width: 95%;    
+}
 
 form {
     top: 50px;

@@ -11,17 +11,30 @@
     
     $sql = 'INSERT INTO cliente (nome, email, telefone, curso, instituicao, foto) VALUES ("'.$nome.'", "'.$email.'","'.$telefone.'","'.$curso.'","'.$inst.'","'.$foto.'");';
     
-    echo ($sql);
     $res = mysqli_query($conn->conectar(), $sql);
     
     if ($res)
     {
         echo "Cliente Cadastrado com Sucesso";
     }
-    //Se "$qtd_linhas" tiver um Valor Igual a 0 é porque ouve um Erro ao gravar o Produto na Tabela
     else
     {
         echo "Não foi possível cadastrar o cliente";
     }
 
 ?>
+<html>
+    <head>
+        <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/geral.css">
+                
+        <title>SENAI</title>
+    </head>
+    <body>
+        <form action= index.php method=get>
+            <div class="form-group">
+                <button type="submit" class="btn btn-primary">Voltar</button>
+            </div>
+        </form>
+    </body>
+</html>

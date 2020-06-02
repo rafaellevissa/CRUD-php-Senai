@@ -4,6 +4,8 @@
         <meta charset="UTF-8">
         <meta name="author" content="Rafael Levi">
         <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/geral.css">
+        
         <title>SENAI</title>
     </head>
     <body>

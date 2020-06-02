@@ -1,7 +1,7 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">        
         <link rel="stylesheet" href="css/geral.css">                
         <title>SENAI</title>
     </head>
@@ -36,6 +36,11 @@
                 <input class="form-control" type="file" id="foto" name="foto">
             </div>
             <button type="submit" class="btn btn-primary">Confirmar</button>
+        </form>
+        <form action= index.php method=get>
+            <div class="form-group">
+                <button type="submit" class="btn btn-primary">Voltar</button>
+            </div>
         </form>                    
     </body>
 </html>
