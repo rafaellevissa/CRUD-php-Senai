@@ -20,7 +20,7 @@
                 <button type="submit" class="btn btn-primary">Visualizar clientes</button>
             </div>
         </form>
-        <form action= atualizar_clientes.php method=get>
+        <form action= form_atualizar_cliente.php method=get>
             <div class="form-group">
                 <button type="submit" class="btn btn-primary">Editar clientes</button>
             </div>

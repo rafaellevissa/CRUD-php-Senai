@@ -8,7 +8,11 @@
     $sql = 'DELETE FROM cliente WHERE email="'.$email.'";';
     $res = mysqli_query($conn->conectar(), $sql);
     
-    if (!$res)
+    if ($res)
+    {
+        echo "Cliente Excluído com Sucesso";
+    }
+    else
     {        
         echo "Não foi possível excluir o cliente";
     }
