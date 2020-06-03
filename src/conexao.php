@@ -1,9 +1,9 @@
 <?php
     class Conexao{
-        public $host = "localhost";
+        public $host = "abitat.cndd5nogbuuf.us-east-2.rds.amazonaws.com";
         public $dbname      = "senai";
-        public $username = "root";
-        public $password = "12345678";
+        public $username = "abitat";
+        public $password = "abitatlive2019";
         
         public function conectar(){
             $conexao= new mysqli($this->host, $this->username, $this->password, $this->dbname);
@@ -11,6 +11,6 @@
                 echo("Não conectou...");
             }
             return $conexao;
-        } 
+        }
     }    
 ?>

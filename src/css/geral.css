@@ -11,7 +11,9 @@ h1{
     margin-left: 20px;
     width: 95%;    
 }
-
+#excluirEmail {
+    display: none;
+}
 form {
     top: 50px;
     margin-left: 20px;

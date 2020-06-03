@@ -20,12 +20,12 @@
                 <button type="submit" class="btn btn-primary">Visualizar clientes</button>
             </div>
         </form>
-        <form action= visualizar_clientes.php method=get>
+        <form action= atualizar_clientes.php method=get>
             <div class="form-group">
                 <button type="submit" class="btn btn-primary">Editar clientes</button>
             </div>
         </form>
-        <form action= visualizar_clientes.php method=get>
+        <form action= form_excluir_cliente.php method=get>
             <div class="form-group">
                 <button type="submit" class="btn btn-primary">Remover clientes</button>
             </div>
